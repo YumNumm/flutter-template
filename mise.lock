@@ -1,0 +1,27 @@
+[[tools.actionlint]]
+version = "1.7.8"
+backend = "aqua:rhysd/actionlint"
+
+[[tools.age]]
+version = "1.2.1"
+backend = "aqua:FiloSottile/age"
+
+[[tools."aqua:suzuki-shunsuke/tfcmt"]]
+version = "4.14.12"
+backend = "aqua:suzuki-shunsuke/tfcmt"
+
+[[tools.flutter]]
+version = "3.38.1-stable"
+backend = "asdf:flutter"
+
+[[tools.gitleaks]]
+version = "8.29.0"
+backend = "aqua:gitleaks/gitleaks"
+
+[[tools.pinact]]
+version = "3.4.4"
+backend = "aqua:suzuki-shunsuke/pinact"
+
+[[tools.xcbeautify]]
+version = "3.1.0"
+backend = "aqua:cpisciotta/xcbeautify"

@@ -1,0 +1,12 @@
+[tools]
+"aqua:suzuki-shunsuke/tfcmt" = "latest"
+flutter = "3.38.1-stable"
+xcbeautify = "latest"
+actionlint = "latest"
+age = "latest"
+gitleaks = "latest"
+pinact = "latest"
+
+[settings]
+experimental = true
+lockfile = true
