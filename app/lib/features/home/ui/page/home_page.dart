@@ -25,7 +25,7 @@ class _Body extends ConsumerWidget {
 
     return Center(
       child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
+        mainAxisAlignment: .center,
         children: [
           Text(packageInfo.appName),
           Text(packageInfo.packageName),

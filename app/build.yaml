@@ -14,3 +14,19 @@ targets:
             - type=warning
             - duplicate_ignore
             - unused_element_parameter
+      slang_build_runner:
+        options:
+          base_locale: ja
+          timestamp: false
+          input_directory: lib/core/i18n
+          input_file_pattern: .yaml
+          output_directory: lib/core/gen/i18n
+          output_file_name: translations.g.dart
+          fallback_strategy: base_locale
+          key_case: camel
+          sanitization:
+            enable: true
+            prefix: k
+            case: camel
+          namespaces: true
+          flat_map: false
