@@ -10,3 +10,8 @@ pinact = "latest"
 [settings]
 experimental = true
 lockfile = true
+
+
+[tasks.pre-commit]
+description = "Run actionlint and pinact"
+run = "actionlint && pinact run --check"
