@@ -18,7 +18,7 @@ dependencies:
   intl: ^0.20.2
   json_annotation: ^4.9.0
   package_info_plus: ^9.0.0
-  riverpod_annotation: ^3.0.3
+  riverpod_annotation: ">=3.0.3 <5.0.0"
   slang: ^4.10.1
   slang_flutter: ^4.10.0
   talker_flutter: ^5.0.2
@@ -33,7 +33,7 @@ dev_dependencies:
   freezed: ^3.2.3
   go_router_builder: ^4.1.1
   json_serializable: ^6.11.1
-  riverpod_generator: ^3.0.3
+  riverpod_generator: ">=3.0.3 <5.0.0"
   riverpod_lint: ^3.0.3
   slang_build_runner: ^4.10.0
   yumnumm_lints:
